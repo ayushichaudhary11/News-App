@@ -9,9 +9,9 @@
 </head>
 <body>
     <nav>
-        <div class="main-nav">
+        <div class="main-nav container flex">
             <a href="#" class="company-logo">
-            <img src="./assets/logo.jpg" alt="company logo">
+                 <img src="./assets/logo.jpg" alt="company logo">
              </a>
              <div class="nav-links">
                 <ul>
@@ -26,7 +26,24 @@
              </div>
         </div>
     </nav>
-    <main></main>
+    <main>
+        <div class="cards-container container flex">
+           
+        </div>
+    </main>
+    <template id="template-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com" alt="news-image" id="news-image">
+            </div>
+
+        <div class="card-content">
+            <h3 id="news-title">this is title</h3>
+            <h6 class="news-source" id="news-source">end gadget 15/10/2023</h6>
+            <p class="news-desc" id ="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quia sunt voluptates quas quae obcaecati facere sint accusamus dolorem ex.</p>
+        </div>
+    </div>
+    </template>
     <script src="script.js"></script>
 </body>
 </html>
