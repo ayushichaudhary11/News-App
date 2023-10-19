@@ -23,32 +23,30 @@
              </div>
 
             <div class="search-bar flex">
-                <input id="search-text" type="text" class="news-input" placeholder="e.g.Science ">
+                <input id="search-text" type="text"  class="news-input"placeholder="e.g.Science ">
                 <button id="search-button" class="search-button">Search</button>
              </div>
         </div>
     </nav>
 
-    <main>
+<main>
         <div class="cards-container container flex" id="cards-container">
-           
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://via.placeholder.com" alt="news-image" id="news-image">
+                </div>
+    
+                 <div class="card-content">
+                    <h3 id="news-title">this is title</h3>
+                    <h6 class="news-source" id="news-source">end gadget 15/10/2023</h6>
+                    <p class="news-desc" id ="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quia sunt voluptates quas quae obcaecati facere sint accusamus dolorem ex.</p>
+                </div>
+            </div>
         </div>
     </main>
 
-    <template id="template-news-card">
-        <div class="card">
-            <div class="card-header">
-                <img src="https://via.placeholder.com" alt="news-image" id="news-image">
-            </div>
 
-        <div class="card-content">
-            <h3 id="news-title">this is title</h3>
-            <h6 class="news-source" id="news-source">end gadget 15/10/2023</h6>
-            <p class="news-desc" id ="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quia sunt voluptates quas quae obcaecati facere sint accusamus dolorem ex.</p>
-        </div>
-    </div>
-    </template>
-    
+
     <script src="script.js"></script>
-</body>
+</body>    
 </html>
