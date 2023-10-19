@@ -27,6 +27,7 @@ ul{
 }
 .flex{
     display: flex;
+    align-items:  center;
 }
 .container{
     max-width: 1180px;
@@ -50,7 +51,7 @@ nav{
 .company-logo img{
     width:120px;
 }
-.nav-links{
+.nav-links ul{
     gap:16px;
 }
 .hover-link{
@@ -63,6 +64,22 @@ nav{
     height:32px;
     gap:8px;
 }
+.hover-link:hover {
+    color: var(--secondary-text-color);
+}
+
+.hover-link:active {
+    color: red;
+}
+.nav-item.active {
+    color: var(--accent-color);
+}
+
+.search-bar {
+    height: 32px;
+    gap: 8px;
+}
+
 .news-input{
     with:200px;
     height:100%;
@@ -93,7 +110,7 @@ main{
     row-gap:20px;
     align-items: start;
 }
-.csrd{
+.card{
     width: 360px;
     min-height: 400px;
     box-shadow: 0px 0px 4px #d4ecff;
